@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eduardo Zapatero | CV Online</title>
+  <style>
+    :root {
+      --primary: #2c3e50;
+      --accent: #3498db;
+      --bg: #f4f4f4;
+      --text: #333;
+      --white: #ffffff;
+      --font: 'Segoe UI', sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: var(--font);
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--primary);
+      color: var(--white);
+      padding: 1.5rem 1rem;
+    }
+
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    nav h1 {
+      font-size: 1.8rem;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      padding: 0;
+    }
+
+    nav a {
+      color: var(--white);
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--accent);
+    }
+
+    main {
+      padding: 2rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      color: var(--primary);
+      margin-bottom: 1rem;
+      border-bottom: 2px solid var(--accent);
+      display: inline-block;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    article {
+      margin-bottom: 1rem;
+      padding-left: 1rem;
+      border-left: 3px solid var(--accent);
+    }
+
+    footer {
+      background-color: var(--primary);
+      color: var(--white);
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (min-width: 600px) {
+      nav {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Eduardo Zapatero</h1>
+      <ul>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#estudios">Estudios</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>
+        Profesional especializado en el desarrollo de sistemas de información, con experiencia en diversos frameworks y patrones de diseño para crear soluciones innovadoras. Desarrollo de soluciones multiplataforma en la nube y software embebido, abarcando desde aplicaciones web hasta sistemas integrados en dispositivos físicos.
+      </p>
+    </section>
+
+    <section id="experiencia">
+      <h2>Experiencia</h2>
+      <article>
+        <h3>NAD Global (Ene-Abr 2024)</h3>
+        <p><strong>Front-End / Scrum Master:</strong> Análisis de requisitos, diseño UI, desarrollo de interfaces responsivas, colaboración ágil.</p>
+      </article>
+      <article>
+        <h3>UTNG (Ene-Abr 2023)</h3>
+        <p><strong>Full Stack Developer:</strong> Desarrollo front-end con HTML, CSS, JS y back-end con Node.js y Java. Integración de APIs REST y gestión de bases de datos MySQL.</p>
+      </article>
+    </section>
+
+    <section id="estudios">
+      <h2>Estudios</h2>
+      <ul>
+        <li>2022-presente - UTNG - Desarrollo de Software Multiplataforma</li>
+        <li>2019-2022 - CBTis 60 - Soporte y Mantenimiento</li>
+      </ul>
+    </section>
+
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <h3>Sociales</h3>
+      <p>Trabajo en equipo, escucha activa, empatía, liderazgo, resolución de problemas, gestión del tiempo.</p>
+
+      <h3>Técnicas</h3>
+      <p>Angular, Node.js, Java, JavaScript, CSS, TypeScript, SQL, MongoDB, MySQL, Node-RED, Linux, Python, Microsoft Office.</p>
+
+      <h3>Idiomas</h3>
+      <p>Español (nativo), Inglés técnico</p>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/tuusuario" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com/tuusuario" target="_blank">GitHub</a></li>
+        <li><a href="mailto:tuemail@example.com">Correo: tuemail@example.com</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Eduardo Zapatero</p>
+  </footer>
+</body>
+</html>
